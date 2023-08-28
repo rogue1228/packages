@@ -151,7 +151,6 @@
       completionHandler(NO);
   }]];
   [[self topViewController] presentViewController:alert animated:YES completion:NULL];
-  completionHandler(true);
 }
 
 -(UIViewController *)topViewController{
